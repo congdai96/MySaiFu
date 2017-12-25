@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:hint="現在パスワード"
+        android:ems="10"
+        android:id="@+id/etold" />
+
+    <TextView
+        android:text="*デフォルトパスワード: 1234"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:hint="新しいパスワード"
+        android:ems="10"
+        android:id="@+id/etnew" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:hint="新しいパスワード確認"
+        android:ems="10"
+        android:id="@+id/etrepin" />
+
+    <Button
+        android:text="セーブ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:background="#050093"
+        android:id="@+id/savechange" />
+</LinearLayout>
